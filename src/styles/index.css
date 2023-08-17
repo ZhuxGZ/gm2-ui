@@ -1,0 +1,92 @@
+:root {
+	font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+#container {
+	padding: 1em 5em;
+	background-color: #f3f3f3;
+	color: #222222;
+}
+
+#container.dark {
+	background-color: #222222;
+	color: #f3f3f3;
+}
+
+a {
+	text-decoration: none;
+}
+a:visited {
+	color: unset;
+}
+
+header {
+	display: grid;
+	place-content: center;
+}
+
+.dark nav {
+	background-color: #f3f3f3;
+	color: #222222;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	width: 25em;
+	background-color: #222222;
+	color: #f3f3f3;
+	border-radius: 1em;
+	gap: 2em;
+}
+
+nav.dark {
+	background-color: #f3f3f3;
+	color: #222222;
+}
+
+nav ul {
+	display: flex;
+	padding: 0;
+	gap: 2.25em;
+	list-style: none;
+	font-weight: bold;
+}
+
+.banner {
+	margin-top: 4em;
+	padding: 2em;
+	display: flex;
+}
+
+h1 {
+	font-size: 45px;
+	margin-bottom: 0.5em;
+}
+
+p {
+	font-size: 16px;
+}
+
+img {
+	padding-left: 4em;
+	height: 15em;
+}
+
+.postDisplay {
+	margin-top: 7.6em;
+	display: grid;
+	grid-template-columns: repeat(2, 45%);
+}
+
+.post {
+	padding: 1em;
+}
+
+.post a {
+	color: #00a7e9;
+}
