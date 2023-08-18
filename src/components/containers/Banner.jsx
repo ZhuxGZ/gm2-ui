@@ -1,6 +1,6 @@
 const Banner = () => {
 	return (
-		<div className="banner">
+		<section className="banner">
 			<div className="info">
 				<h1>Software designer, founder, and amateur astronaut.</h1>
 				<p>
@@ -10,7 +10,7 @@ const Banner = () => {
 				</p>
 			</div>
 			<img src="/src/assets/img/avatar.png" alt="" />
-		</div>
+		</section>
 	);
 };
 
