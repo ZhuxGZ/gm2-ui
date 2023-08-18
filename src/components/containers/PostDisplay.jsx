@@ -38,7 +38,7 @@ const getPost = posts.map((post) => {
 });
 
 const PostDisplay = () => {
-	return <div className="postDisplay">{getPost}</div>;
+	return <section className="postDisplay">{getPost}</section>;
 };
 
 export default PostDisplay;
